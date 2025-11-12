@@ -1,0 +1,57 @@
+/* ===== Tickets Page Specific Styles ===== */
+
+/* Style for the whole section */
+section {
+  margin-top: 1rem;
+}
+
+/* Style for the ticket list */
+.ticket-list {
+  list-style-type: none;      /* remove default bullets */
+  padding: 0;
+  margin-top: 1.5rem;
+}
+
+/* Each ticket link box */
+.ticket-list li {
+  background-color: #f8f9fb;  /* light grey-white */
+  border: 1px solid #d0d4dd;
+  border-left: 5px solid #1c2541; /* dark blue accent bar */
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+/* Hover animation */
+.ticket-list li:hover {
+  background-color: #e9f2ff;
+  transform: translateX(3px);
+}
+
+/* Link text style */
+.ticket-list a {
+  color: #0b132b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ticket-list a:hover {
+  color: #3a506b;
+  text-decoration: underline;
+}
+
+/* Small note under the list */
+section em {
+  color: #555;
+  font-size: 0.95rem;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('stadium.jpeg');  /* path to your image */
+  background-size: cover;       /* fill the whole screen */
+  background-position: center;  /* keep it centered */
+  background-attachment: fixed; /* make it stay while scrolling */
+  color: #222;
+  line-height: 1.6;
+}
