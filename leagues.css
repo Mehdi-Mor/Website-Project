@@ -1,1 +1,40 @@
+.league-section {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.club-logos {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.club-logos img {
+  width: 80px;
+  height: auto;
+}
+
+.standings-table {
+ width: 100%;               
+  margin: 20px auto;        
+  border-collapse: collapse;
+  text-align: center;       
+}
+
+.standings-table th,
+.standings-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;  
+}
+
+.standings-table th {
+  background: #f3f3f3;
+}
 
