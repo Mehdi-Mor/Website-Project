@@ -128,7 +128,7 @@ footer {
 }
 body {
   font-family: 'Arial', sans-serif;
-  background-image: url('img/Mundial Ronaldinho Soccer - Copy.png');  /* path to your image */
+  background-image: url('stadium.jpeg');  /* path to your image */
   background-size: cover;       /* fill the whole screen */
   background-position: center;  /* keep it centered */
   background-attachment: fixed; /* make it stay while scrolling */
