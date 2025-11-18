@@ -128,10 +128,10 @@ footer {
 }
 body {
   font-family: 'Arial', sans-serif;
-  background-image: url('stadium.jpeg');  /* path to your image */
-  background-size: cover;       /* fill the whole screen */
-  background-position: center;  /* keep it centered */
-  background-attachment: fixed; /* make it stay while scrolling */
+  background-image: url('stadium.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   color: #222;
   line-height: 1.6;
 }
@@ -150,4 +150,5 @@ body {
   main {
     margin: 1rem;
   }
+
 }
